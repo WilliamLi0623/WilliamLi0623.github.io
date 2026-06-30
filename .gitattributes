@@ -1,0 +1,12 @@
+# Keep GitHub's language statistics representative of code actually authored in
+# this repo. The entries below are vendored theme demos or CI-generated reports;
+# excluding them from Linguist stops them from dominating the per-language byte
+# counts (HTML was ~65% before this, almost all from the files below).
+
+# Vendored Plotly demo: a single HTML file with the full Plotly.js bundle inlined
+# (~4 MB). Shipped with the al-folio distill sample post (_posts/2018-12-22-distill.md).
+assets/plotly/demo.html linguist-vendored
+
+# Lighthouse audit reports auto-generated and committed by the lighthouse-badger
+# GitHub Action.
+lighthouse_results/** linguist-generated
