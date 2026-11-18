@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+subtitle: Computer Science student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Networked systems, programmable networks, and infrastructure.
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Xuanming (William) Li. I'm an Honours Computer Science student at the **University of Waterloo** (class of 2029), currently on exchange at **National Taiwan University**, where I'm taking graduate courses in advanced computer networks and network virtualization.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm interested in **networked systems**: programmable networks (SDN, P4), transport protocols, datacenter networking, and network performance analysis. I like problems where the network stops being a black box and becomes something you can measure, model, and program.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Most of what I know about systems I learned by running them:
+
+- **Production infrastructure.** As an SRE co-op at [TextNow](https://www.textnow.com/), I built Datadog monitoring for IPv6 neighbor-table exhaustion that detected a previously unmonitored DNS failure mode, traced CI runner failures to AWS Auto Scaling AZ rebalancing, and right-sized the EC2 CI fleet for a projected ~33% (about $48K/year) cost saving.
+- **Shared systems for a community.** On the [UW Computer Science Club](https://csclub.uwaterloo.ca/) Terminal Committee, I help run the club's Linux servers and services (DNS, Kerberos, LDAP, NFS, Prometheus) and its public software mirror, and supported the migration of the club's services from CloudStack to Proxmox VE.
+- **A homelab as a testbed.** At home I benchmark RoCEv2 and InfiniBand RDMA and explore PFC/ECN congestion control, and I'm building a Go control plane that schedules Proxmox workers through K3s and Kueue.
+
+At NTU this term I'm working through hands-on ns-3 simulation labs and OpenFlow/P4 labs for programmable data planes. I also hold the Juniper **JNCIS-SP** certification.
+
+I'm looking for **research opportunities in networking and systems**. If you work on related problems, I'd be glad to hear from you.
