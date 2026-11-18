@@ -33,11 +33,7 @@
       "studyType": "Bachelor of Computer Science",
       "startDate": "2024-09-01",
       "endDate": "2029-04-30",
-      "courses": [
-        "Cumulative average 88.4%; CS major average 89.6%",
-        "Operating Systems",
-        "Compilers"
-      ]
+      "courses": ["Cumulative average 88.4%; CS major average 89.6%", "Operating Systems", "Compilers"]
     },
     {
       "institution": "National Taiwan University",
