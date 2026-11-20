@@ -1134,3 +1134,12 @@ ninja-keys::part(ninja-input) {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+// Native-language name shown next to the name in the about page title
+.post-title .native-name {
+  font-size: 0.6em;
+  font-weight: 300;
+  color: var(--global-text-color-light);
+  margin-left: 0.4em;
+  white-space: nowrap;
+}
