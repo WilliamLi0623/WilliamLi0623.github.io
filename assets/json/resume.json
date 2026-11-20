@@ -29,11 +29,18 @@
       "institution": "University of Waterloo",
       "location": "Waterloo, ON, Canada",
       "url": "https://uwaterloo.ca/",
-      "area": "Computer Science (Honours)",
+      "area": "Computer Science (Honours, Co-op), Digital Hardware Specialization",
       "studyType": "Bachelor of Computer Science",
       "startDate": "2024-09-01",
       "endDate": "2029-04-30",
-      "courses": ["Cumulative average 88.4%; CS major average 89.6%", "Operating Systems", "Compilers"]
+      "courses": [
+        "Cumulative average 88.4%; CS major average 89.6%",
+        "CS 350 Operating Systems",
+        "CS 241E Foundations of Sequential Programs (Enriched; compilers)",
+        "CS 251 Computer Organization and Design",
+        "CS 240E Data Structures and Data Management (Enriched)",
+        "CS 246E Object-Oriented Software Development (Enriched)"
+      ]
     },
     {
       "institution": "National Taiwan University",
@@ -55,6 +62,7 @@
     {
       "name": "TextNow, Infrastructure Engineering (SRE)",
       "position": "SRE Software Developer Co-op",
+      "summary": "Monitoring, CI reliability, and cost optimization on AWS/EKS infrastructure.",
       "location": "Waterloo, ON",
       "url": "https://www.textnow.com/",
       "startDate": "2026-05-01",
@@ -69,6 +77,7 @@
     {
       "name": "University of Waterloo Computer Science Club",
       "position": "Terminal Committee (DevOps)",
+      "summary": "Run the club's Linux servers, core services, and public software mirror.",
       "location": "Waterloo, ON",
       "url": "https://csclub.uwaterloo.ca/",
       "startDate": "2025-06-01",
@@ -108,6 +117,20 @@
         "Implemented a Lacs-to-MIPS compiler with DFA scanning, CYK parsing, lexical scoping, and IR lowering.",
         "Built MIPS code generation and a stack/heap runtime with tail calls and Cheney copying garbage collection."
       ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "President's Scholarship",
+      "date": "2025",
+      "awarder": "University of Waterloo",
+      "url": "https://uwaterloo.ca/future-students/financing/scholarships"
+    },
+    {
+      "title": "Term Distinction",
+      "date": "2024 – 2026",
+      "awarder": "University of Waterloo",
+      "summary": "Awarded in every academic term to date (six terms, Fall 2024 – Spring 2026)."
     }
   ],
   "certificates": [

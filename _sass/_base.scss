@@ -1143,3 +1143,26 @@ ninja-keys::part(ninja-input-wrapper) {
   margin-left: 0.4em;
   white-space: nowrap;
 }
+
+// Homepage sections (Education, Experience, Coursework)
+.home-section {
+  .home-date {
+    width: 22%;
+    font-weight: 500;
+    white-space: nowrap;
+    padding-right: 1rem;
+  }
+  .home-meta {
+    color: var(--global-text-color-light);
+  }
+  ul {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-section .home-date {
+    white-space: normal;
+    width: 30%;
+  }
+}

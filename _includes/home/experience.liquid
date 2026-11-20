@@ -1,0 +1,22 @@
+<div class="home-section experience">
+  <table class="table table-sm table-borderless">
+    {% for job in site.data.resume.work %}
+      <tr>
+        <th scope="row" class="home-date">
+          {{ job.startDate | date: '%b %Y' }} –
+          {% if job.endDate %}{{ job.endDate | date: '%b %Y' }}{% else %}Present{% endif %}
+        </th>
+        <td>
+          <b>{{ job.position }}</b>
+          <span class="home-meta"
+            >· <a href="{{ job.url }}">{{ job.name }}</a></span
+          >
+          {% if job.summary %}
+            <br>
+            {{ job.summary }}
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
