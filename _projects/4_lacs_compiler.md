@@ -3,7 +3,7 @@ layout: page
 title: Lacs Language Compiler
 description: A full compiler from Lacs to MIPS, with a garbage-collected runtime.
 importance: 4
-category: systems
+category: Systems
 ---
 
 **Sept – Dec 2025** · MIPS, compiler construction

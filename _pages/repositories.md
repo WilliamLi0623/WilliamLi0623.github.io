@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Selected open-source work on GitHub.
 nav: true
 nav_order: 3
 ---
 
-## GitHub users
+## GitHub Users
 
 {% if site.data.repositories.github_users %}
 

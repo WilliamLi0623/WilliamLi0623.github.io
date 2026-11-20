@@ -1,0 +1,17 @@
+<div class="home-section awards">
+  <table class="table table-sm table-borderless">
+    {% for award in site.data.resume.awards %}
+      <tr>
+        <th scope="row" class="home-date">{{ award.date }}</th>
+        <td>
+          <b>{{ award.title }}</b>
+          <span class="home-meta">· {{ award.awarder }}</span>
+          {% if award.summary %}
+            <br>
+            {{ award.summary }}
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>

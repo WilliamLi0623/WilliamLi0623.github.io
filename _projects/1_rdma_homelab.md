@@ -2,8 +2,9 @@
 layout: page
 title: RDMA & Datacenter Networking Homelab
 description: Benchmarking RoCEv2 and InfiniBand, and exploring PFC/ECN congestion control.
+featured: true
 importance: 1
-category: networking
+category: Networking
 ---
 
 **Sept 2026 – present** · Linux, RoCEv2, InfiniBand

@@ -2,8 +2,9 @@
 layout: page
 title: Codex Homelab Controller
 description: A Go control plane that schedules Proxmox LXC workers through K3s and Kueue.
+featured: true
 importance: 2
-category: systems
+category: Systems
 ---
 
 **Sept 2026 – present** · Go, SQLite, Proxmox VE, K3s, Kueue

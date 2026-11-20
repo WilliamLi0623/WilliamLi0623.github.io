@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   Computer Science undergraduate at the <a href="https://uwaterloo.ca/">University of Waterloo</a> ·
@@ -13,6 +13,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
+education: true # Education section (from assets/json/resume.json)
+experience: true # Experience section (from assets/json/resume.json)
+featured_projects: true # projects with `featured: true` in front matter
+awards: true # Honors & Awards section (from assets/json/resume.json)
+coursework: true # Relevant Coursework section (from _data/coursework.yml)
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

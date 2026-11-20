@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Things I have built and broken, mostly in networking and systems.
 nav: true
 nav_order: 1
-display_categories: [networking, systems]
+display_categories: [Networking, Systems]
 horizontal: true
 ---
 

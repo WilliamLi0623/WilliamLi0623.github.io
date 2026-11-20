@@ -1,0 +1,23 @@
+<div class="home-section coursework">
+  {% for group in site.data.coursework %}
+    <p class="mb-1">
+      <b>{{ group.school }}</b>
+      {% if group.note -%}
+        <span class="home-meta">({{ group.note }})</span>
+      {%- endif %}
+    </p>
+    <ul>
+      {% for course in group.courses %}
+        <li>
+          {% if course.code -%}
+            <span class="home-meta">{{ course.code }}</span>
+          {%- endif %}
+          {{ course.name }}
+          {% if course.detail -%}
+            <span class="home-meta">: {{ course.detail }}</span>
+          {%- endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>

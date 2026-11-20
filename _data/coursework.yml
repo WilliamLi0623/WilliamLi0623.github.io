@@ -1,0 +1,36 @@
+- school: National Taiwan University
+  note: exchange, Fall 2026
+  courses:
+    - code: CSIE5057
+      name: Advanced Computer Networks
+      detail: graduate; ns-3 simulation labs
+    - code: EE5197
+      name: Network Virtualization and Security
+      detail: graduate; OpenFlow/P4 labs for SDN and programmable data planes
+    - code: CSIE5360
+      name: Memory and Storage Systems
+    - code: CommE5069
+      name: Reinforcement Learning
+
+- school: University of Waterloo
+  courses:
+    - code: CS 350
+      name: Operating Systems
+    - code: CS 241E
+      name: Foundations of Sequential Programs (Enriched)
+      detail: compilers; built a Lacs-to-MIPS compiler
+    - code: CS 251
+      name: Computer Organization and Design
+    - code: CS 240E
+      name: Data Structures and Data Management (Enriched)
+    - code: CS 246E
+      name: Object-Oriented Software Development (Enriched)
+    - code: CS 343
+      name: Concurrent and Parallel Programming
+      detail: planned, Winter 2027
+    - code: CS 454
+      name: Distributed Systems
+      detail: planned, Winter 2027
+    - code: CS 456
+      name: Computer Networks
+      detail: planned, Winter 2027

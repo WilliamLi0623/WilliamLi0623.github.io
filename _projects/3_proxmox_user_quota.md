@@ -3,7 +3,7 @@ layout: page
 title: ProxmoxUserQuota
 description: A transparent reverse proxy that enforces per-user resource quotas on the Proxmox VE API.
 importance: 3
-category: systems
+category: Systems
 github: https://github.com/WilliamLi0623/ProxmoxUserQuota-Proxy
 ---
 
