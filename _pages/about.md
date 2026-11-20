@@ -6,6 +6,13 @@ subtitle: >
   Computer Science undergraduate at the <a href="https://uwaterloo.ca/">University of Waterloo</a> ·
   Exchange student at <a href="https://www.csie.ntu.edu.tw/">National Taiwan University</a> · Networking &amp; Systems
 
+native_name: 李轩名
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,4 +29,4 @@ I'm an Honours Computer Science undergraduate at the [University of Waterloo](ht
 
 I come to networking from running real systems. As an SRE co-op at [TextNow](https://www.textnow.com/), I built Datadog monitoring for IPv6 neighbor-table exhaustion that caught a previously unmonitored DNS failure mode, and I right-sized the CI fleet for a projected ~33% cost saving. On the [UW Computer Science Club](https://csclub.uwaterloo.ca/) Terminal Committee I help run the club's Linux servers, core services, and public mirror. At home I keep an [RDMA networking testbed](/projects/1_rdma_homelab/) and a [Go control plane](/projects/2_codex_homelab_controller/) for Proxmox and K3s. I also hold the Juniper JNCIS-SP certification.
 
-I'm looking for **undergraduate research opportunities in networking and systems**. If you work on related problems, please [email me](mailto:x366li@uwaterloo.ca).
+I'm looking for **research opportunities in networking and systems**: undergraduate research or RA positions, summer research internships, and research-oriented co-op terms. I plan to apply to graduate school. If you work on related problems, please [email me](mailto:x366li@uwaterloo.ca).
