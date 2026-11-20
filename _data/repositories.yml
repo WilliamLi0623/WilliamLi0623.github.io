@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - WilliamLi0623
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - WilliamLi0623/ProxmoxUserQuota-Proxy
+  - WilliamLi0623/ProxmoxUserQuota-Docs
+  - WilliamLi0623/ProxmoxUserQuota-Cluster
